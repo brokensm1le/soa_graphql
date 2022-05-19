@@ -22,7 +22,9 @@ uvicorn server:app --reload
 ## Интерфейс
 
 Можем написать подобные запросы:
-**Example1: **
+
+**Example1:**
+
 ```
 query {
   allGames {
@@ -36,7 +38,8 @@ query {
 }
 ```
 
-**Example2: **
+**Example2:**
+
 ```
 query {
   game(id:1) {
