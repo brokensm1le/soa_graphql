@@ -17,3 +17,7 @@ pipenv install starlette==0.16.0 --skip-lock
 
 uvicorn server:app --reload
 ```
+
+
+## Интерфейс
+
