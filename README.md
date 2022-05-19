@@ -22,4 +22,29 @@ uvicorn server:app --reload
 ## Интерфейс
 
 Можем написать подобные запросы:
+**Example1: **
+```
+query {
+  allGames {
+    id
+    status
+    scoreboard {
+      whoWin
+    }
+    comments
+  }
+}
+```
 
+**Example2: **
+```
+query {
+  game(id:1) {
+    status
+    scoreboard {
+      whoWin
+    }
+    comments
+  }
+}
+```
